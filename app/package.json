@@ -4,14 +4,23 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/h5-media/",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "@babel/runtime-corejs2": "^7.17.2",
+    "ant-design-vue": "^2.2.8",
+    "less": "^4.1.2",
+    "tongpo": "^0.0.18",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.23",
+    "unplugin-vue-components": "^0.17.20",
     "vite": "^2.8.0"
   }
 }
